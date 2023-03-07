@@ -115,7 +115,5 @@ def transform_df(df, test=True):
 
 
 if __name__ == "__main__":
-    # transform_df(read_filter_df(), test=False)
-    df = pd.read_csv('output_df.csv', index_col=[0])
-    print(df.price_avg.sum())
+    transform_df(read_filter_df(), test=False)
 
